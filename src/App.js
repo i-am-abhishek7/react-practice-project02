@@ -1,7 +1,12 @@
-import react from "react";
+import React from "react";
+import AddUser from "./components/Ussers/AddUser";
 
-function App() {
-  return <div className="App">Hello There!</div>;
-}
+const App = () => {
+  return (
+    <div>
+      <AddUser />
+    </div>
+  );
+};
 
 export default App;
