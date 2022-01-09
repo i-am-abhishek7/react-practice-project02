@@ -9,7 +9,7 @@ const App = () => {
     setUserList((prevUsersList) => {
       return [
         ...prevUsersList,
-        { name: userName, age: userAge, id: Math.random.toString() },
+        { name: userName, age: userAge, id: Math.random().toString() },
       ];
     });
   };
